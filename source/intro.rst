@@ -16,7 +16,7 @@ Dank gebührt *Gerhard Navratil*, *Johannes Scholz* und *Thomas Fuhrmann* für d
 Ablauf
 ------
 
-Die Übung besteht aus **fünf Übungsblättern** mit mehreren Unteraufgaben, die Sie **alleine** bearbeiten.
+Die Übung besteht aus **fünf Übungsblättern** mit mehreren Unteraufgaben, die Sie **zu zweit** bearbeiten.
 Sie haben in der Regel **ein bis zwei Wochen** Zeit, um eine Übung fertigzustellen.
 Pro Übung gibt es die Möglichkeit eine freiwillige **Tutoriumseinheit** zu besuchen, in der Unklarheiten besprochen werden.
 Die Note setzt sich aus der Anzahl der erfolgreich gelösten Aufgaben zusammen.
