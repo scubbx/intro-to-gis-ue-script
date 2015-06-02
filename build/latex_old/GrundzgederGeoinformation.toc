@@ -1,0 +1,48 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Ablauf}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}\IeC {\"U}bung 1: Freie Datenquellen}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}OGD Vienna}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Open Street Map}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Abgabe}{4}{section.2.3}
+\contentsline {chapter}{\numberline {3}\IeC {\"U}bung 2: Rasterdaten}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Installation}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Zugang mit dem eigenen Rechner}{5}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}QGIS auf dem eigenen Rechner}{6}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Daten}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}Start}{7}{section.3.3}
+\contentsline {section}{\numberline {3.4}Quellen von Geodaten}{7}{section.3.4}
+\contentsline {section}{\numberline {3.5}Ein neues Projekt}{8}{section.3.5}
+\contentsline {section}{\numberline {3.6}Koordinatensystem einstellen}{8}{section.3.6}
+\contentsline {section}{\numberline {3.7}Daten und Metadaten}{9}{section.3.7}
+\contentsline {section}{\numberline {3.8}Ver\IeC {\"a}ndern der Anzeige}{10}{section.3.8}
+\contentsline {section}{\numberline {3.9}Farbtabellen}{12}{section.3.9}
+\contentsline {section}{\numberline {3.10}Berechnung von Konturlinien}{14}{section.3.10}
+\contentsline {section}{\numberline {3.11}Gel\IeC {\"a}ndeneigung}{15}{section.3.11}
+\contentsline {section}{\numberline {3.12}Speichern des Projekts}{16}{section.3.12}
+\contentsline {section}{\numberline {3.13}Abgabe}{16}{section.3.13}
+\contentsline {chapter}{\numberline {4}\IeC {\"U}bung 3: Erweiterte Rateroperationen}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Transformation von WGS84 nach ETRS89}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Die Analyse-Toolbox (Processing)}{19}{section.4.2}
+\contentsline {section}{\numberline {4.3}Reklassifikation}{21}{section.4.3}
+\contentsline {section}{\numberline {4.4}Map-Algebra}{23}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Lokale Operatoren}{23}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Fokale Operatoren}{23}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Masken}{25}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Zonale Operatoren}{26}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Kombination mehrerer Raster}{26}{subsection.4.4.5}
+\contentsline {section}{\numberline {4.5}Sichtbarkeitsanalysen}{27}{section.4.5}
+\contentsline {section}{\numberline {4.6}Abgabe}{27}{section.4.6}
+\contentsline {chapter}{\numberline {5}\IeC {\"U}bung 4: Vektordaten}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}GIS Vektordaten}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}Das Shapefile}{32}{section.5.2}
+\contentsline {section}{\numberline {5.3}Laden und Selektieren von Vektorobjekten}{32}{section.5.3}
+\contentsline {section}{\numberline {5.4}Buffer Operationen}{35}{section.5.4}
+\contentsline {section}{\numberline {5.5}Raster in Vektoren Umwandeln}{36}{section.5.5}
+\contentsline {section}{\numberline {5.6}Overlay Operationen}{38}{section.5.6}
+\contentsline {section}{\numberline {5.7}Delaunay-Triangulation und Voronoi-Diagramme}{39}{section.5.7}
+\contentsline {section}{\numberline {5.8}Abgabe}{39}{section.5.8}
+\contentsline {chapter}{\numberline {6}\IeC {\"U}bung 5: Netzwerkoperationen}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}Datenaufbereitung}{41}{section.6.1}
+\contentsline {section}{\numberline {6.2}K\IeC {\"u}rzester Weg}{42}{section.6.2}
+\contentsline {section}{\numberline {6.3}Abgabe}{43}{section.6.3}
