@@ -46,6 +46,8 @@ Wennd das Feld *Gespeicherte Datei zur Karte hinzufügen* angehakt ist, müssen 
     * Stellen Sie sicher, dass das Koordinatensystem für Ihr Projekt auf ETRS89 eingestellt ist und die *Spontan-KBS-Transformation* aktiviert ist.
     
     * Laden Sie den Datensatz `BEZIRKSGRENZENOGD.shp` aus dem entsprechenden Unterverzeichnis der Daten für die Übung 3 in QGIS und speichern Sie diesen umprojeziert in das Koordinatensystem ETRS89 unter einem aussagekräftigen Namen (beispielsweise `bezirksgrenzenogd_etrs89.shp`) ab. Laden Sie diesen exportierten Layer ebenfalls in QGIS, sofern dies nicht automatisch nach dem Export geschehen ist.
+    
+    Fertigen sie von ihrem gesamten QGis Fenster einen Screenshot an.
 
 
 Die Analyse-Toolbox (Processing)
@@ -208,7 +210,7 @@ Mit dieser Formel werden nur Bereich beibehalten, die einen Wert über 300 besit
     
     Erzeugen Sie mit oben beschriebener Methode eine Karte, welche nur Gebiete über 200 Metern anzeigt.
 
-Sie können mithilfe einer Vorlage auch Bereiche aus einem Raster herausschneiden. Um nur das Gebiet von Wien aus den SRTM Höhendaten zu erhalten, stellen Sie zunächst sicher, dass Sie das zuvor besprochenen Bezirksgrenzen Shapefile geladen haben. Mit dem *Processing* Algorithmus *Clip raster by mask layer* (in das Such-Feld der `Processing (Verarbeitungswerkzeuge)` Toolbox eingeben) können wir nun diesen Bereich aus unserer Rasterkarte ausschneiden.
+Sie können mithilfe einer Vorlage auch Bereiche aus einem Raster herausschneiden. Um nur das Gebiet von Wien aus den SRTM Höhendaten zu erhalten, stellen Sie zunächst sicher, dass Sie das zuvor besprochenen Bezirksgrenzen Shapefile geladen haben. Mit dem *Processing* Algorithmus *Clip raster by mask layer* (in das Such-Feld der `Processing (Verarbeitungswerkzeuge)` Toolbox eingeben) können wir nun diesen Bereich aus unserer Rasterkarte ausschneiden. Es ist dabei unbedingt zu beachten, dass sich beide Layer im gleichen Koordinatensystem befinden. Der Algorithmus zum Ausschneiden einer Fläche führt, anders als die Kartenanzeige in QGIS, keine automatische Umprojektion durch.
 
 .. topic:: Aufgabe 11
     
@@ -238,11 +240,11 @@ Bei den GRASS Algorithmen, welche über die Processing Toolbox verfügbar sind, 
 Kombination mehrerer Raster
 '''''''''''''''''''''''''''
 
-Mit dem QGIS Rasterrechner können auch mehrere Layer auf einmal bearbeitet und kombiniert werden (auf ähnliche Weise ist dies auch mit dem *r.mapcalc* Rasterrechner möglich). Im Fenster der Rasterrechnes sind in der Liste mit der Beschriftung *Rasterkanäle* alle verfügbaren Rasterdaten aufgelistet. Diese Einträge können Sie in Ihrer Formal beliebig kombinieren.
+Mit dem QGIS Rasterrechner können auch mehrere Layer auf einmal bearbeitet und kombiniert werden (auf ähnliche Weise ist dies auch mit dem *r.mapcalc* Rasterrechner möglich). Im Fenster des Rasterrechnes sind in der Liste mit der Beschriftung *Rasterkanäle* alle verfügbaren Rasterdaten aufgelistet. Diese Einträge können Sie in Ihrer Formel beliebig kombinieren.
 
 .. topic:: Aufgabe 13
     
-    Finden Sie alle *künstlichen* Flächen, die *höher als 200 Meter* liegen. Verwenden Sie als Grundlage den reklassifizierten Corine Raster und den SRTM Raster. Erinnern Sie sich, wir haben die Klasse *1* verwendet, um künstliche Flächen im Corine Datensatz zu klassifizieren ("Artificial surfaces").
+    Finden Sie alle *künstlichen* Flächen innerhalb von Wien, die *höher als 200 Meter* liegen. Verwenden Sie als Grundlage den reklassifizierten Corine Raster und den SRTM Raster. Erinnern Sie sich, wir haben die Klasse *1* verwendet, um künstliche Flächen im Corine Datensatz zu klassifizieren ("Artificial surfaces").
 
 .. die Formel hierfür lautet: ("elevation_srtm@1" > 200)  AND ("corine_reclass.tif@1" = 1)
 

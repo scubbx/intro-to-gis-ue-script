@@ -2,7 +2,18 @@ from docutils import nodes
 from sphinx.roles import XRefRole
 import figtable
 import subfig
-from backports import OrderedDict, OrderedSet
+#from backports import OrderedDict, OrderedSet
+try:
+    from collections import OrderedDict
+except ImportError:
+    # python 2.6 or earlier, use backport
+    from ordereddict import OrderedDict
+
+try:
+    from collections import OrderedSet
+except ImportError:
+    # python 2.6 or earlier, use backport
+    from orderedset import OrderedSet
 
 # Element classes
 

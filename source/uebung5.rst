@@ -23,10 +23,8 @@ Die Liste mit dem Titel `Fields (Felder)` listet alle verfügbaren Attributklass
 
 Wir können nun erkennen, dass in der Attributklasse `class` nur vier verschiedene Einträge vorkommen: `motorways`, `mainroads`, `minorroads` und `railways`. In unserem Fall interessieren uns nur die *mainroads* und *minorroads*, denn nur diese können auch zu Fuß begangen werden.
 Um diese herauszufiltern, schreiben wir folgende Formel in das Feld mit dem Titel `Provider specific filter expression (Datenlieferanten spezifischer Ausdruck)`:
-
-.. code-block
     
-    "class" = 'mainroads' OR "class" = 'minorroads'
+    ``"class" = 'mainroads' OR "class" = 'minorroads'``
 
 Nach einem Klick auf *OK*, wird die Anzeige aktualisiert und nur mehr Haupt- und Nebenstraßen gezeigt.
 
@@ -37,7 +35,7 @@ Nach einem Klick auf *OK*, wird die Anzeige aktualisiert und nur mehr Haupt- und
 Kürzester Weg
 -------------
 
-Der kürzeste Weg wird mit dem Dijkstra-Algorithmus [#f11]_ berechnet. Im QGIS Plugin *Road graph plugin* (Straßengraph-Erweiterung) ist dieser Algorithmus enthalten. Die Funktion wird mit Hilfe eines andockbaren Fensters bereitgestellt, das im Menü unter *View* (Ansicht) -> *Panels* (Bedienfelder) -> *Shortest Path* (Kürzester Weg) aktiviert werden kann, sofern es nicht schon sichtbar ist. Falls sich diese Option nich im Menü finden lässt, muss sie zuerst im Pluginmanager aktiviert werden.
+Der kürzeste Weg wird mit dem Dijkstra-Algorithmus [#f11]_ berechnet. Im QGIS Plugin *Road graph plugin* (Straßengraph-Erweiterung) ist dieser Algorithmus enthalten. Die Funktion wird mit Hilfe eines andockbaren Fensters bereitgestellt, das im Menü unter *View* (Ansicht) -> *Panels* (Bedienfelder) -> *Shortest Path* (Kürzester Weg) aktiviert werden kann, sofern es nicht schon sichtbar ist. Falls sich diese Option nich im Menü finden lässt, muss sie zuerst im Pluginmanager aktiviert werden. Dort trägt sie den Namen *Straßengraph Erweiterung (Road Graph Plugin)*.
 
 .. _figroute:
 
@@ -46,13 +44,13 @@ Der kürzeste Weg wird mit dem Dijkstra-Algorithmus [#f11]_ berechnet. Im QGIS P
     
     Die *Shortest-Path* Funktion in QGIS
 
-Wie in Abbildung :num:`#figroute` dargestellt, müssen zunächst die Einstellungen des Plugins geöffnet werden, damit bestimmte Standardoptionen automatisch gesetzt werden. Hier kann man diverse Optionen angeben, welche wir so lassen, wie sie sind. Das Fenster kann mit einem Klick auf *OK* geschlossen werden.
+Wie in Abbildung :num:`#figroute` dargestellt, müssen zunächst die Einstellungen des Plugins im Menü unter *Vektor* (Vector) -> *Straßengraph* (Road Graph) -> *Einstellungen* (Settings) geöffnet werden, damit bestimmte Standardoptionen automatisch gesetzt werden. Hier kann man diverse Optionen angeben, welche wir so lassen, wie sie sind. Das Fenster kann mit einem Klick auf *OK* geschlossen werden.
 
 Um nun die kürzeste Route zwischen zwei Punkten zu berechnen, klicken wir zunächst auf das erste Fadenkreuz neben dem Feld, welches mit *Start* beschriftet ist, und dann auf die Stelle in der Karte, an der wir starten wollen. Wir führen den Gleichen Schritt mit dem Fadenkreuz unterhalb des ersten aus, um den Endpunkt zu markieren. Um die Berechnung zu starten, klicken Sie auf **Calculate (Berechnen)**.
 
 .. topic:: Aufgabe 23
     
-    Berechnen Sie die kürzeste Route zwischen Ihrem Wohnort und der TU Wien (oder dem Karlsplatz).
+    Berechnen Sie die kürzeste Route zwischen einem beliebigen Ausgangspunkt (z.Bsp. Ihrem Wohnort) und der TU Wien (oder dem Karlsplatz).
 
 
 

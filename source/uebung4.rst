@@ -30,6 +30,7 @@ Eine bezeichnende Eigenschaft eines Shapefiles ist, dass sich ein einzelnes Shap
 .. topic:: Aufgabe 15
     
     Benennen Sie die Datei, welche für die Speicherung der Geometriedaten zuständig ist.
+    Für diese Aufgabe ist kein Screenshot anzufertigen.
 
 Wir hatten in der vorhergehenden Übung bereits kurz Kontakt zu einem Vektordatensatz: die Bezirksgrenzen von Wien.
 
@@ -125,7 +126,7 @@ Das Ergebnis dieser Operation ist ein oder mehrere Polygon in einem Layer, welch
 
 .. topic:: Aufgabe 18
     
-    Gesucht ist die Zone, die innerhalb von 500 Metern zu einer Schule liegt. Nutzen sie einen Buffer, um diese Zonen zu berechnen und darzustellen.
+    Gesucht ist die Zone innerhalb Wiens, die innerhalb von 500 Metern zu einer Schule liegt. Nutzen sie einen Buffer, um diese Zonen zu berechnen und darzustellen.
     
 Raster in Vektoren Umwandeln
 ----------------------------
@@ -181,7 +182,7 @@ Die *Clip* Funktion findet man im Menü unter *Vector* -> *Geoprocessing (Geover
     
     Um einen gemeinsamen Datensatz, der zuvor genannte Kriterien (Aufgabe 19) für eine neue Schule erfüllt, zu erzeugen, kombinieren Sie den Pufferdatensatz mit dem vektorisierten der CORINE Klasse 1.
     
-    **Hinweis:** Da wir nicht die gemeinsame Fläche der 500 Meter Zone um bestehende Schulen (nicht gesucht) und der künstlichen Flächen (gesucht) suchen, ist die `clip` Funktion hier die falsche Wahl. Ein richtiges Ergebnis erzielen wir mit der `Difference (Differenz)` Funktion, welche uns die Bereiche berechnet, die sich nicht überlappen.
+    **Hinweis:** Da wir nicht die gemeinsame Fläche der 500 Meter Zone um bestehende Schulen (nicht gesucht) und der künstlichen Flächen (gesucht) suchen, ist die `clip` Funktion hier die falsche Wahl. Ein richtiges Ergebnis erzielen wir mit der `Unterschied (Difference)` Funktion, welche uns die Bereiche berechnet, die sich nicht überlappen.
 
 
 Delaunay-Triangulation und Voronoi-Diagramme

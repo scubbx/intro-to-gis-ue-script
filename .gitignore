@@ -1,2 +1,10 @@
-built/
+build/
 
+build/*
+!build/latex
+
+build/doctrees
+build/doctrees/*
+
+build/latex/*
+!build/latex/GrundzgederGeoinformation.pdf

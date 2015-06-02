@@ -13,7 +13,7 @@ Für die Durchführung der Übung wird die frei verfügbare OpenSource GIS Softw
     
     Der Startbildschirm der verwendeten QGIS Version 2.6
 
-Sollten Sie eine der verwendeten Funktionen nicht finden, sehen Sie im QGIS Menü *Erweiterungen* -> *Erweiterungen verwalten und installieren* nach, ob die entsprechende Funktion installiert und aktiviert ist.
+Sollten Sie eine der verwendeten Funktionen nicht finden, sehen Sie im QGIS Menü *Erweiterungen (Plugins)* -> *Erweiterungen verwalten und installieren (Manage and Install Plugins...)* nach, ob die entsprechende Funktion installiert und aktiviert ist.
 
 Es wird empfohlen, die Übungen an einem der Rechner im GIS-Lab am Institut zu absolvieren. Es ist jedoch auch möglich, sich die Software auf dem eigenen Computer zu installieren.
 Wenn Sie für die Übung angemeldet sind, bekommen Sie automatisch einen Account am Institutsserver zugewiesen. QGIS ist auf diesem Account bereits installiert.
@@ -76,7 +76,7 @@ Quellen von Geodaten
 --------------------
 
 Mit QGIS können wir **Daten direkt aus jedem beliebigen Verzeichnis** öffnen. Der Übersicht halber ist es jedoch ratsam, alle Daten, welche zu einem Projekt gehören, in einem einzelnen Verzeichnis zusammen zu speichern.
-Dabei kann verschiedene Unterverzeichnisse erstellen um beispielsweise Rasterdaten und Vektordaten zu trennen.
+Dabei kann man verschiedene Unterverzeichnisse erstellen um beispielsweise Rasterdaten und Vektordaten zu trennen.
 
 Bei **größeren Projekten** ist es üblich, dass die Geodaten in einem speziellen **Datenbanksystem** gespeichert werden. Das hat unter anderem den Vorteil, dass der Zugriff auf die Daten schneller erfolgt oder Zugangsbeschränkungen eingerichtet werden können. QGIS kann auch solche Datenbanken öffnen.
 
@@ -133,7 +133,7 @@ Das Programmfenster zeigt nun die soeben geladene Datei im Kartenfenster in der 
 Die Datei ``elevation_srtm.tif`` beinhält **Höhenwerte** der NASA Shuttle Radar Topography Mission (SRTM) [#f2]_.
 Alle in QGIS geöffneten Daten werden als `Layer` bezeichnet. Wenn mehrere Datensätze gleichzeitig geladen sind, werden diese einzelnen Layer übereinander gelegt. Diese Layer kann man einzeln ein- und ausschalten oder auch deren Reihenfolge ändern. Dies geschiet in der `Layers` Ansicht (das Fenster rechts in Abbildung 3.6).
 
-Um die **Metadaten** zu einem einzelnen Layer anzusehen, kann man eine Funktion des `Properties (Eigenschaften)` Fensters nutzen. Dieses **Eigenschaftsfenster für einen Layer** öffnet man, indem man mit der **rechten Maustaste** darauf klickt und im daraufhin erscheinenen Menü auf `Properties (Eigenschaften)` klickt (siehe Abbildung :num:`#figprop`).
+Um die **Metadaten** zu einem einzelnen Layer anzusehen, kann man eine Funktion des `Properties (Eigenschaften)` Fensters nutzen. Dieses **Eigenschaftsfenster für einen Layer** öffnet man, indem man mit der **rechten Maustaste** darauf klickt und im daraufhin erscheinenen Menü auf `Properties (Eigenschaften)` klickt (siehe Abbildung :num:`#figsprop`).
 
 .. _figsprop:
 
@@ -192,7 +192,7 @@ Farbtabellen
 ------------
 
 Wir laden nun einen weiteren Datensatz aus der Datei `corine.tif` in das QGIS Projekt. Diese **Corine Land Cover Classification** wird von der European Environment Agency [#f3]_ bereitgestellt. In der Datei `clc_legend.csv` kann man eine kurze **Beschreibung der Landbedeckungsklassen** finden.
-Als nächstes wollen wir diese Beschreibungen zu den Klassennummern der Rasterdatei hinzufügen. Erfreulicher weise wid speziell für QGIS bereits eine Datei zur Verfügung gestellt, die **die einzelnen Rasterwerte den Landbedeckungsklassen zuordnet**.
+Als nächstes wollen wir diese Beschreibungen zu den Klassennummern der Rasterdatei hinzufügen. Erfreulicher weise wird speziell für QGIS bereits eine Datei zur Verfügung gestellt, die **die einzelnen Rasterwerte den Landbedeckungsklassen zuordnet**.
 
 .. _figsfarbpalette:
 
@@ -252,7 +252,7 @@ In Abbildung :num:`#figsneigung` kann man den Dialog zum Erstellen der Neigung s
 .. figure:: images/qgis_neigung.png
     :scale: 50%
     
-    Die Funktion zum Berechnen der Neigung
+    Die Funktion zum Berechnen der Neigung (auf Englisch nennt sich der Modus "Slope")
 
 Die Ansicht der Neigungskarte lässt sich noch weiter optimieren. Nehmen wir an, wir sind ausschließlich an Neigungen zwischen 5° und 10° interessiert. Um genau diesen Bereich darzustellen, öffnen wir das `Properties (Eigenschaften)` Fenster des neu erstellen Neigungs-Layers und welchseln auf die `Style (Stil)` Ansicht. Dort setzen wir die Option `Render type (Darstellungsart)` abermals auf den Eintrag `Singleband pseudocolor (Einkanalpseudofarbe)` und `Color interpolation (Farbinterpolation)` auf `Discrete`.
 
@@ -278,7 +278,7 @@ Abgabe
 Beantworten Sie die Fragen im Text und fügen Sie alle gespeicherten Bilder und Informationen zu einem Dokument zusammen. Geben Sie Ihre fertige Arbeit als pdf in TUWEL ab.
 
 
-.. [#f1] Der EPSG Code dient zur Identifikation des Koordinatensystems. Das ETRS89 Koordinatensystem hat den Code 3035. Unter http://spatialreference.org/ref/epsg/3035/ finden Sie eine genauere Beschreibung der Parameter.
+.. [#f1] Der EPSG (European Petroleum Survey Group) Code dient zur Identifikation des Koordinatensystems. Das ETRS89 Koordinatensystem hat den Code 3035. Unter http://spatialreference.org/ref/epsg/3035/ finden Sie eine genauere Beschreibung der Parameter.
 
 .. [#f2] Unter http://dds.cr.usgs.gov/srtm/version2_1/SRTM3/Eurasia/ stehen Höhendaten mit nahezu globaler Abdeckung zum Download zu Verfügung. Die Höhendaten für diese Übung sind in der Datei N48E016.hgt.zip.
 
