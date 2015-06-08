@@ -50,7 +50,7 @@ Um nun die kürzeste Route zwischen zwei Punkten zu berechnen, klicken wir zunä
 
 .. topic:: Aufgabe 23
     
-    Berechnen Sie die kürzeste Route zwischen einem beliebigen Ausgangspunkt (z.Bsp. Ihrem Wohnort) und der TU Wien (oder dem Karlsplatz).
+    Berechnen Sie die kürzeste Route zwischen einem beliebigen Ausgangspunkt (z.Bsp. Ihrem Wohnort) und der TU Wien (oder dem Karlsplatz). Verwenden Sie dafür den gefilterten Straßendatensatz aus vorhergehender Aufgabe.
 
 
 
