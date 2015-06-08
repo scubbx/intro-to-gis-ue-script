@@ -30,7 +30,7 @@ Nach einem Klick auf *OK*, wird die Anzeige aktualisiert und nur mehr Haupt- und
 
 .. topic:: Aufgabe 22
     
-    Filtern Sie alle Autobahnen und Bahnschienen aus dem Datensatz.
+    Filtern Sie alle Autobahnen und Bahnschienen aus dem Datensatz, sodass nur mehr Haupt- und Nebenstraßen geladen werden.
 
 Kürzester Weg
 -------------
