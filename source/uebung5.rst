@@ -30,7 +30,7 @@ Nach einem Klick auf *OK*, wird die Anzeige aktualisiert und nur mehr Haupt- und
 
 .. topic:: Aufgabe 22
     
-    Filtern Sie alle Autobahnen und Bahnschienen aus dem Datensatz, sodass nur mehr Haupt- und Nebenstraßen geladen werden.
+    Filtern Sie alle Autobahnen und Bahnschienen aus dem Datensatz, sodass nur mehr Haupt- und Nebenstraßen geladen werden. Fertigen sie ein Bild des Resultats an.
 
 Kürzester Weg
 -------------
@@ -50,7 +50,7 @@ Um nun die kürzeste Route zwischen zwei Punkten zu berechnen, klicken wir zunä
 
 .. topic:: Aufgabe 23
     
-    Berechnen Sie die kürzeste Route zwischen einem beliebigen Ausgangspunkt (z.Bsp. Ihrem Wohnort) und der TU Wien (oder dem Karlsplatz). Verwenden Sie dafür den gefilterten Straßendatensatz aus vorhergehender Aufgabe.
+    Berechnen Sie die kürzeste Route zwischen einem beliebigen Ausgangspunkt (z.Bsp. Ihrem Wohnort) und der TU Wien (oder dem Karlsplatz). Verwenden Sie dafür den gefilterten Straßendatensatz aus vorhergehender Aufgabe. Zeigen sie ein Bild ihrer Route auf dem Straßendatensatz.
 
 
 
