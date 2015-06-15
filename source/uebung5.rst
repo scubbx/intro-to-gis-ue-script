@@ -15,7 +15,7 @@ QGIS bietet dafür bei Vektorlayern eine interessante Funktion namens *Filter*. 
 
 .. figure:: images/qgis_filter.png
     :scale: 100%
-    
+
     Die *Filter* Funktion in QGIS
 
 Nun kann mit einer Syntax ähnlich jener von SQL ein Filter angegeben werden, nach dem die Daten gefiltert werden. Für QGIS sieht es danach so aus, als ob die Datei tatsächlich nur jene Features beinhalten würde, die die Filter Funktion passieren.
@@ -23,14 +23,19 @@ Die Liste mit dem Titel `Fields (Felder)` listet alle verfügbaren Attributklass
 
 Wir können nun erkennen, dass in der Attributklasse `class` nur vier verschiedene Einträge vorkommen: `motorways`, `mainroads`, `minorroads` und `railways`. In unserem Fall interessieren uns nur die *mainroads* und *minorroads*, denn nur diese können auch zu Fuß begangen werden.
 Um diese herauszufiltern, schreiben wir folgende Formel in das Feld mit dem Titel `Provider specific filter expression (Datenlieferanten spezifischer Ausdruck)`:
-    
+
     ``"class" = 'mainroads' OR "class" = 'minorroads'``
 
 Nach einem Klick auf *OK*, wird die Anzeige aktualisiert und nur mehr Haupt- und Nebenstraßen gezeigt.
 
 .. topic:: Aufgabe 22
+<<<<<<< HEAD
     
     Filtern Sie alle Autobahnen und Bahnschienen aus dem Datensatz, sodass nur mehr Haupt- und Nebenstraßen geladen werden. Fertigen sie ein Bild des Resultats an.
+=======
+
+    Filtern Sie alle Autobahnen und Bahnschienen aus dem Datensatz, sodass nur mehr Haupt- und Nebenstraßen geladen werden.
+>>>>>>> 19682a0b6024fb832afdf90d82eff5db789e6a42
 
 Kürzester Weg
 -------------
@@ -41,7 +46,7 @@ Der kürzeste Weg wird mit dem Dijkstra-Algorithmus [#f11]_ berechnet. Im QGIS P
 
 .. figure:: images/qgis_route.png
     :scale: 100%
-    
+
     Die *Shortest-Path* Funktion in QGIS
 
 Wie in Abbildung :num:`#figroute` dargestellt, müssen zunächst die Einstellungen des Plugins im Menü unter *Vektor* (Vector) -> *Straßengraph* (Road Graph) -> *Einstellungen* (Settings) geöffnet werden, damit bestimmte Standardoptionen automatisch gesetzt werden. Hier kann man diverse Optionen angeben, welche wir so lassen, wie sie sind. Das Fenster kann mit einem Klick auf *OK* geschlossen werden.
@@ -49,8 +54,13 @@ Wie in Abbildung :num:`#figroute` dargestellt, müssen zunächst die Einstellung
 Um nun die kürzeste Route zwischen zwei Punkten zu berechnen, klicken wir zunächst auf das erste Fadenkreuz neben dem Feld, welches mit *Start* beschriftet ist, und dann auf die Stelle in der Karte, an der wir starten wollen. Wir führen den Gleichen Schritt mit dem Fadenkreuz unterhalb des ersten aus, um den Endpunkt zu markieren. Um die Berechnung zu starten, klicken Sie auf **Calculate (Berechnen)**.
 
 .. topic:: Aufgabe 23
+<<<<<<< HEAD
     
     Berechnen Sie die kürzeste Route zwischen einem beliebigen Ausgangspunkt (z.Bsp. Ihrem Wohnort) und der TU Wien (oder dem Karlsplatz). Verwenden Sie dafür den gefilterten Straßendatensatz aus vorhergehender Aufgabe. Zeigen sie ein Bild ihrer Route auf dem Straßendatensatz.
+=======
+
+    Berechnen Sie die kürzeste Route zwischen einem beliebigen Ausgangspunkt (z.Bsp. Ihrem Wohnort) und der TU Wien (oder dem Karlsplatz). Verwenden sie dafür den zuvor gefilterten Datensatz um eine realistische Route für Fußgänger zu berechnen.
+>>>>>>> 19682a0b6024fb832afdf90d82eff5db789e6a42
 
 
 
@@ -61,10 +71,10 @@ Um nun die kürzeste Route zwischen zwei Punkten zu berechnen, klicken wir zunä
 ..
     Erfassen von eigenen Daten
     --------------------------
-    
+
     Daten können über automatische Prozesse oder auch manuell erstellt werden. In vielen Fällen erhält man bereits Datensätzt, die einfach in das GIS geladen werden können. Manchmal ist es dennoch notwendig Features per Hand einzutragen.
-    
-    QGIS stellt dafür eine ganze Palette an Hilfsmitteln zur Verfügung, von denen wir uns 
+
+    QGIS stellt dafür eine ganze Palette an Hilfsmitteln zur Verfügung, von denen wir uns
 
 
 
