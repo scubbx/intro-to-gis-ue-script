@@ -29,13 +29,9 @@ Um diese herauszufiltern, schreiben wir folgende Formel in das Feld mit dem Tite
 Nach einem Klick auf *OK*, wird die Anzeige aktualisiert und nur mehr Haupt- und Nebenstraßen gezeigt.
 
 .. topic:: Aufgabe 22
-<<<<<<< HEAD
     
     Filtern Sie alle Autobahnen und Bahnschienen aus dem Datensatz, sodass nur mehr Haupt- und Nebenstraßen geladen werden. Fertigen sie ein Bild des Resultats an.
-=======
 
-    Filtern Sie alle Autobahnen und Bahnschienen aus dem Datensatz, sodass nur mehr Haupt- und Nebenstraßen geladen werden.
->>>>>>> 19682a0b6024fb832afdf90d82eff5db789e6a42
 
 Kürzester Weg
 -------------
@@ -54,13 +50,8 @@ Wie in Abbildung :num:`#figroute` dargestellt, müssen zunächst die Einstellung
 Um nun die kürzeste Route zwischen zwei Punkten zu berechnen, klicken wir zunächst auf das erste Fadenkreuz neben dem Feld, welches mit *Start* beschriftet ist, und dann auf die Stelle in der Karte, an der wir starten wollen. Wir führen den Gleichen Schritt mit dem Fadenkreuz unterhalb des ersten aus, um den Endpunkt zu markieren. Um die Berechnung zu starten, klicken Sie auf **Calculate (Berechnen)**.
 
 .. topic:: Aufgabe 23
-<<<<<<< HEAD
     
-    Berechnen Sie die kürzeste Route zwischen einem beliebigen Ausgangspunkt (z.Bsp. Ihrem Wohnort) und der TU Wien (oder dem Karlsplatz). Verwenden Sie dafür den gefilterten Straßendatensatz aus vorhergehender Aufgabe. Zeigen sie ein Bild ihrer Route auf dem Straßendatensatz.
-=======
-
-    Berechnen Sie die kürzeste Route zwischen einem beliebigen Ausgangspunkt (z.Bsp. Ihrem Wohnort) und der TU Wien (oder dem Karlsplatz). Verwenden sie dafür den zuvor gefilterten Datensatz um eine realistische Route für Fußgänger zu berechnen.
->>>>>>> 19682a0b6024fb832afdf90d82eff5db789e6a42
+    Berechnen Sie die kürzeste Route zwischen einem beliebigen Ausgangspunkt (z.Bsp. Ihrem Wohnort) und der TU Wien (oder dem Karlsplatz). Verwenden Sie dafür den gefilterten Straßendatensatz aus vorhergehender Aufgabe um eine realistische Route für Fußgänger zu berechnen.. Zeigen sie ein Bild ihrer Route auf dem Straßendatensatz.
 
 
 
