@@ -1,4 +1,4 @@
-Übung 3: Erweiterte Rateroperationen
+Übung 3: Erweiterte Rasteroperationen
 ====================================
 
 Die Stadt Wien stellt unter http://data.wien.gv.at im Rahmen der Open Government Data (OGD) Initiative Verwaltungsdaten frei zur Verfügung. Die Daten werden unter anderm auch im World Geodetic System 1984 (WGS84) bereitgestellt.
